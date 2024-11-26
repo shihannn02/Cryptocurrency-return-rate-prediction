@@ -10,7 +10,7 @@ This dataset was obtained from [Binance](https://www.binance.com/en-GB), one of 
 
 The `RNN_prediction.ipynb` implements a Recurrent Neural Network (RNN) model for predicting price return rates in cryptocurrency trading. Instead of directly predicting absolute prices, we focus on the return rate, calculated as:
 
-$r = \frac{P_1 - P_0}{P_0}$
+$$r = \frac{P_1 - P_0}{P_0}$$
 
 Where:
 
