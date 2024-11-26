@@ -23,3 +23,5 @@ $P_0$ is the previous price
 This approach of predicting return rates rather than raw prices was chosen deliberately. When evaluating machine learning models in financial forecasting, using absolute prices as targets often leads to overestimated performance metrics. This can create a misleading impression of the model's actual predictive capabilities. Our methodology, inspired by research discussed in this [article](https://cloud.tencent.com/developer/article/2210127), aims to provide a more realistic assessment of the model's predictive power.
 
 Furthermore, we evaluated the model's long-term forecasting capabilities. Rather than limiting our assessment to the traditional approach of using historical data points $T_{n-k}$ to $T_n$ to predict only the next timestep $T_{n+1}$, we extended our analysis to test the model's ability to forecast multiple steps ahead $T_{n+2}$, $T_{n+3}$, etc.. This multi-step prediction approach provides a more comprehensive evaluation of the model's performance in long-term time series forecasting.
+
+**Note**: Considering the time limitation and computing resources, I only used 15 currencies for experienment.
