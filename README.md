@@ -12,13 +12,7 @@ The `RNN_prediction.ipynb` implements a Recurrent Neural Network (RNN) model for
 
 $$r = \frac{P_1 - P_0}{P_0}$$
 
-Where:
-
-$r$ represents the return rate
-
-$P_1$ is the current price
-
-$P_0$ is the previous price
+Where $r$ represents the return rate, $P_1$ is the current price and $P_0$ is the previous price.
 
 This approach of predicting return rates rather than raw prices was chosen deliberately. When evaluating machine learning models in financial forecasting, using absolute prices as targets often leads to overestimated performance metrics. This can create a misleading impression of the model's actual predictive capabilities. Our methodology, inspired by research discussed in this [article](https://cloud.tencent.com/developer/article/2210127), aims to provide a more realistic assessment of the model's predictive power.
 
